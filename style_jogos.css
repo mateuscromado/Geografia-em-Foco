@@ -46,7 +46,7 @@ button:hover {
 /*Celular responsivo*/
 @media (max-width: 1024px){
     .cabeçalho{
-        margin-top: -650px !important;
+        margin-top: -510px !important;
     }
 
     .botão{
