@@ -46,7 +46,7 @@ button:hover {
 /*Celular responsivo*/
 @media (max-width: 1024px){
     .cabeçalho{
-        margin-top: -510px !important;
+        margin-top: 0 auto !important;
     }
 
     .botão{
@@ -68,34 +68,31 @@ button:hover {
 .cabeçalho {
     
     color: aliceblue;
-
     background-color: #D7CCC8;
     text-align: center;
-
-
     box-sizing: border-box;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     padding: 20px;
     font-size: 25px;
-
     width: 100%;
     height: 70px;
     display: flex;
     position: fixed;
-
+    top: 0; /* Manterá o cabeçalho no topo */
+    z-index: 999; /* Ajuste conforme necessário para empilhamento */
     animation-name: cabe2;
     animation-duration: 1.5s;
     opacity: 90%;
-
-    margin-bottom: 100px;
-
-    
-
-    
-
+    /* margin-bottom: 100px; (pode ser removido, já que o cabeçalho é fixo) */
 }
+
+    
+
+    
+
+
 
 .imagem1 {
     display: flex;
